@@ -1,0 +1,86 @@
+신경망 학습 시작 - 신경망: 6층
+ 1 번째 학습(에폭) --> train_acc : 6.88%, test_acc : 6.83%
+ 2 번째 학습(에폭) --> train_acc : 82.59%, test_acc : 82.69%
+ 3 번째 학습(에폭) --> train_acc : 90.62%, test_acc : 90.41%
+ 4 번째 학습(에폭) --> train_acc : 92.36%, test_acc : 92.26%
+ 5 번째 학습(에폭) --> train_acc : 93.39%, test_acc : 93.09%
+ 6 번째 학습(에폭) --> train_acc : 93.88%, test_acc : 93.32%
+ 7 번째 학습(에폭) --> train_acc : 94.32%, test_acc : 93.62%
+ 8 번째 학습(에폭) --> train_acc : 94.64%, test_acc : 93.76%
+ 9 번째 학습(에폭) --> train_acc : 94.98%, test_acc : 94.06%
+10 번째 학습(에폭) --> train_acc : 95.08%, test_acc : 94.07%
+11 번째 학습(에폭) --> train_acc : 95.30%, test_acc : 94.32%
+12 번째 학습(에폭) --> train_acc : 95.55%, test_acc : 94.45%
+13 번째 학습(에폭) --> train_acc : 95.69%, test_acc : 94.57%
+14 번째 학습(에폭) --> train_acc : 95.84%, test_acc : 94.61%
+15 번째 학습(에폭) --> train_acc : 96.00%, test_acc : 94.79%
+16 번째 학습(에폭) --> train_acc : 96.09%, test_acc : 94.67%
+17 번째 학습(에폭) --> train_acc : 96.18%, test_acc : 94.89%
+18 번째 학습(에폭) --> train_acc : 96.28%, test_acc : 94.90%
+19 번째 학습(에폭) --> train_acc : 96.36%, test_acc : 95.17%
+20 번째 학습(에폭) --> train_acc : 96.43%, test_acc : 95.10%
+21 번째 학습(에폭) --> train_acc : 96.53%, test_acc : 95.03%
+22 번째 학습(에폭) --> train_acc : 96.64%, test_acc : 95.22%
+23 번째 학습(에폭) --> train_acc : 96.71%, test_acc : 94.98%
+24 번째 학습(에폭) --> train_acc : 96.63%, test_acc : 95.12%
+25 번째 학습(에폭) --> train_acc : 96.76%, test_acc : 95.41%
+26 번째 학습(에폭) --> train_acc : 96.81%, test_acc : 95.14%
+27 번째 학습(에폭) --> train_acc : 96.84%, test_acc : 95.34%
+28 번째 학습(에폭) --> train_acc : 96.97%, test_acc : 95.23%
+29 번째 학습(에폭) --> train_acc : 96.99%, test_acc : 95.53%
+30 번째 학습(에폭) --> train_acc : 96.91%, test_acc : 95.35%
+31 번째 학습(에폭) --> train_acc : 97.04%, test_acc : 95.44%
+32 번째 학습(에폭) --> train_acc : 97.07%, test_acc : 95.53%
+33 번째 학습(에폭) --> train_acc : 97.11%, test_acc : 95.34%
+34 번째 학습(에폭) --> train_acc : 97.15%, test_acc : 95.48%
+35 번째 학습(에폭) --> train_acc : 97.10%, test_acc : 95.50%
+36 번째 학습(에폭) --> train_acc : 97.22%, test_acc : 95.49%
+37 번째 학습(에폭) --> train_acc : 97.31%, test_acc : 95.49%
+38 번째 학습(에폭) --> train_acc : 97.38%, test_acc : 95.50%
+39 번째 학습(에폭) --> train_acc : 97.43%, test_acc : 95.65%
+40 번째 학습(에폭) --> train_acc : 97.25%, test_acc : 95.42%
+41 번째 학습(에폭) --> train_acc : 97.35%, test_acc : 95.48%
+42 번째 학습(에폭) --> train_acc : 97.41%, test_acc : 95.57%
+43 번째 학습(에폭) --> train_acc : 97.47%, test_acc : 95.26%
+44 번째 학습(에폭) --> train_acc : 97.59%, test_acc : 95.60%
+45 번째 학습(에폭) --> train_acc : 97.53%, test_acc : 95.48%
+46 번째 학습(에폭) --> train_acc : 97.60%, test_acc : 95.62%
+47 번째 학습(에폭) --> train_acc : 97.50%, test_acc : 95.39%
+48 번째 학습(에폭) --> train_acc : 97.56%, test_acc : 95.50%
+49 번째 학습(에폭) --> train_acc : 97.64%, test_acc : 95.53%
+50 번째 학습(에폭) --> train_acc : 97.60%, test_acc : 95.38%
+51 번째 학습(에폭) --> train_acc : 97.68%, test_acc : 95.52%
+52 번째 학습(에폭) --> train_acc : 97.72%, test_acc : 95.55%
+53 번째 학습(에폭) --> train_acc : 97.64%, test_acc : 95.40%
+54 번째 학습(에폭) --> train_acc : 97.76%, test_acc : 95.56%
+55 번째 학습(에폭) --> train_acc : 97.55%, test_acc : 95.37%
+56 번째 학습(에폭) --> train_acc : 97.82%, test_acc : 95.52%
+57 번째 학습(에폭) --> train_acc : 97.71%, test_acc : 95.58%
+58 번째 학습(에폭) --> train_acc : 97.77%, test_acc : 95.57%
+59 번째 학습(에폭) --> train_acc : 97.85%, test_acc : 95.57%
+60 번째 학습(에폭) --> train_acc : 97.76%, test_acc : 95.37%
+61 번째 학습(에폭) --> train_acc : 97.85%, test_acc : 95.60%
+62 번째 학습(에폭) --> train_acc : 97.91%, test_acc : 95.48%
+63 번째 학습(에폭) --> train_acc : 97.85%, test_acc : 95.50%
+64 번째 학습(에폭) --> train_acc : 97.68%, test_acc : 95.41%
+65 번째 학습(에폭) --> train_acc : 97.84%, test_acc : 95.44%
+66 번째 학습(에폭) --> train_acc : 97.98%, test_acc : 95.61%
+67 번째 학습(에폭) --> train_acc : 98.00%, test_acc : 95.56%
+68 번째 학습(에폭) --> train_acc : 97.95%, test_acc : 95.51%
+69 번째 학습(에폭) --> train_acc : 98.07%, test_acc : 95.44%
+70 번째 학습(에폭) --> train_acc : 97.99%, test_acc : 95.43%
+71 번째 학습(에폭) --> train_acc : 97.84%, test_acc : 95.56%
+72 번째 학습(에폭) --> train_acc : 98.06%, test_acc : 95.51%
+73 번째 학습(에폭) --> train_acc : 98.16%, test_acc : 95.61%
+74 번째 학습(에폭) --> train_acc : 98.09%, test_acc : 95.62%
+75 번째 학습(에폭) --> train_acc : 98.07%, test_acc : 95.74%
+76 번째 학습(에폭) --> train_acc : 98.04%, test_acc : 95.44%
+77 번째 학습(에폭) --> train_acc : 98.07%, test_acc : 95.36%
+78 번째 학습(에폭) --> train_acc : 98.08%, test_acc : 95.60%
+79 번째 학습(에폭) --> train_acc : 98.03%, test_acc : 95.58%
+80 번째 학습(에폭) --> train_acc : 98.13%, test_acc : 95.50%
+81 번째 학습(에폭) --> train_acc : 98.11%, test_acc : 95.40%
+82 번째 학습(에폭) --> train_acc : 98.19%, test_acc : 95.43%
+83 번째 학습(에폭) --> train_acc : 98.21%, test_acc : 95.49%
+84 번째 학습(에폭) --> train_acc : 98.18%, test_acc : 95.47%
+최종 학습률 --> train_acc : 98.18%, test_acc : 95.47%
