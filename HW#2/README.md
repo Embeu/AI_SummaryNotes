@@ -70,6 +70,18 @@ plt.show()
 ### 패션 MNIST 확인
 ![image](https://github.com/toproof25/AI_SummaryNotes/assets/41888060/2c247103-05e3-4c36-ac03-7eacb48f4690)
 
+### 최종 학습률
+![image](https://github.com/toproof25/AI_SummaryNotes/assets/41888060/7caff96e-11f3-45a9-8672-d4ab089de71a)
+
+
+### 학습 그래프 (손실값)
+![image](https://github.com/toproof25/AI_SummaryNotes/assets/41888060/650224fb-b966-44b7-8d0d-326dbb6b93db)
+
+
+### 학습 그래프 (에폭/정확도)
+![image](https://github.com/toproof25/AI_SummaryNotes/assets/41888060/2cbbc985-e6e5-42b3-83e8-8969c5cba2d8)
+
+
 
 
 <br/>
