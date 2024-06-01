@@ -19,6 +19,7 @@
 - ##### 계층 : COV-배치정규화-ReLU-Pool-Affine-배치정규화-ReLU-Affine-SoftmaxWithLoss
 - ##### learning_rate(학습률) : 0.005
 
+<br/>
 
 ### 패션 MNIST 불러오기
 ```python
@@ -65,17 +66,19 @@ label = t_train[index]
 plt.imshow(image)
 plt.show()
 ```
-  
+
+<br/>
+
 ### 사용한 함수
-- ##### Affine (계층 클래스)
-- ##### ReLu (활성화 함수 클래스)
-- ##### softmax (출력층 활성화 함)
-- ##### cross_entropy_error (교차 엔트로피 오차 / 손실 함수)
-- ##### numerical_gradient (수치 미분 및 기울)
-- ##### SoftmaxWithLoss (활성화 함수 클래)
-- ##### AdaGrad (최적화 함수)
-- ##### He_init (ReLu 가중치 초기화 함수)
-- ##### 배치 정규화 (예제 소스 활용)
+- Affine (계층 클래스)
+- ReLu (활성화 함수 클래스)
+- softmax (출력층 활성화 함)
+- cross_entropy_error (교차 엔트로피 오차 / 손실 함수)
+- numerical_gradient (수치 미분 및 기울)
+- SoftmaxWithLoss (활성화 함수 클래)
+- AdaGrad (최적화 함수)
+- He_init (ReLu 가중치 초기화 함수)
+- 배치 정규화 (예제 소스 활용)
 
 ### CNN 함수, 클래스
 - SimpleConvNet (CNN 계층 클래스)
