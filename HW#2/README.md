@@ -23,29 +23,47 @@
 ### 패션 MNIST 불러오기
 ```python
 import gzip
+
 def load_mnist_images(filename):
     with gzip.open(filename, 'rb') as f:
-        # 파일에서 데이터를 읽어 들입니다.
         data = f.read()
-        # 이미지는 16바이트 헤더를 가지고 있으므로, 이를 건너뛰고 나머지 데이터를 읽어옵니다.
         images = np.frombuffer(data, np.uint8, offset=16)
-        # 이미지를 (num_samples, 28, 28) 형식으로 재구성합니다.
         images = images.reshape(-1, 1, 28, 28)
     return images
 
 def load_mnist_labels(filename):
     with gzip.open(filename, 'rb') as f:
-        # 파일에서 데이터를 읽어 들입니다.
         data = f.read()
-        # 레이블은 8바이트 헤더를 가지고 있으므로, 이를 건너뛰고 나머지 데이터를 읽어옵니다.
         labels = np.frombuffer(data, np.uint8, offset=8)
     return labels
 
-# 파일 경로를 설정합니다.
+# 파일 경로
 train_images_path = 'Fashion-MNIST/train-images-idx3-ubyte.gz'
 train_labels_path = 'Fashion-MNIST/train-labels-idx1-ubyte.gz'
 test_images_path = 'Fashion-MNIST/t10k-images-idx3-ubyte.gz'
 test_labels_path = 'Fashion-MNIST/t10k-labels-idx1-ubyte.gz'
+
+# 데이터 가져오기
+x_train = load_mnist_images(train_images_path)
+t_train = load_mnist_labels(train_labels_path)
+x_test = load_mnist_images(test_images_path)
+t_test = load_mnist_labels(test_labels_path)
+
+# 데이터 확인
+print(f'Train images shape: {x_train.shape}')
+print(f'Train labels shape: {t_train.shape}')
+print(f'Test images shape: {x_test.shape}')
+print(f'Test labels shape: {t_test.shape}')
+
+class_names = ['T-shirt/top', 'Trouser', 'Pullover', 'Dress', 'Coat', 
+               'Sandal', 'Shirt', 'Sneaker', 'Bag', 'Ankle boot']
+
+# 이미지 띄우기
+index = 0  # 0번 인덱스를 선택
+image = x_train[index][0, :, :]
+label = t_train[index]
+plt.imshow(image)
+plt.show()
 ```
   
 ### 사용한 함수
