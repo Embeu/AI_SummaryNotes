@@ -67,6 +67,11 @@ plt.imshow(image)
 plt.show()
 ```
 
+### 패션 MNIST 확인
+![image](https://github.com/toproof25/AI_SummaryNotes/assets/41888060/2c247103-05e3-4c36-ac03-7eacb48f4690)
+
+
+
 <br/>
 
 ### 사용한 함수
